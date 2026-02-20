@@ -48,13 +48,29 @@ JSON Output
 
 mlops-task/
 │
+
+
 ├── run.py # Main pipeline script
+
+
 ├── config.yaml # Configuration parameters
+
+
 ├── data.csv # Cryptocurrency OHLCV dataset
+
+
 ├── requirements.txt # Python dependencies
+
+
 ├── Dockerfile # Container setup
+
+
 ├── metrics.json # Example output
+
+
 ├── run.log # Example execution log
+
+
 └── README.md
 
 
@@ -71,7 +87,12 @@ python run.py \
 
 ## 🐳 Docker Execution 
 1. Build Docker Image
+
+   
 docker build -t mlops-task .
+
 2. Run Container
+
+
 docker run --rm mlops-task
 
