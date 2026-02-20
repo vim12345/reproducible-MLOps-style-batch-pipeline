@@ -57,18 +57,9 @@ mlops-task/
 ├── run.log # Example execution log
 └── README.md
 
----
-
-## 🧩 Configuration File
-
-`config.yaml`
-
-```yaml
-seed: 42
-window: 5
-version: "v1"
 
  ## Local Execution
+ 
 1. Install Dependencies
 pip install -r requirements.txt
 2. Run Pipeline
@@ -77,6 +68,7 @@ python run.py \
 --config config.yaml \
 --output metrics.json \
 --log-file run.log
+
 ## 🐳 Docker Execution 
 1. Build Docker Image
 docker build -t mlops-task .
